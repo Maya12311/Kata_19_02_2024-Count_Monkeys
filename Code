@@ -1,0 +1,12 @@
+public class MonkeyCounter
+{
+  public static int[] monkeyCount(final int n){
+
+  int count[] = new int[n];
+    
+    for(int i = 1; i<=n; i++){
+      count[i-1] = i;
+    }
+    return count;
+  }
+}
